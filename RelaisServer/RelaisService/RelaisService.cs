@@ -5,20 +5,8 @@ using System.Device.Gpio;
 using System.Linq;
 using System.Text;
 
-namespace RelaisServer
+namespace RelaisServer.RelaisService
 {
-    public class RelaisRequest
-    {
-        public string Name { get; set; }
-        public bool? State { get; set; } = null;
-    }
-
-    public class RelaisResponse
-    {
-        public bool Success { get; set; }
-        public string Message { get; set; }
-    }
-
     [RestServerServiceInstance(RestServerServiceInstanceType.SingletonStrict)]
     internal class RelaisService : RestServerService
     {

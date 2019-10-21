@@ -40,8 +40,6 @@ namespace RelaisServer
                 _container,
                 loggerAdapter,
                 Assembly.GetAssembly(typeof(RestServerHostedService)));
-            // register public file route
-            _restServer.RegisterRouteHandler(new RestServerServiceFileRouteHandler("InetPub"));
         }
 
         public void Dispose()

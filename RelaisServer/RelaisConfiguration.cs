@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RelaisServer
 {
-    public class RelayConfiguration
+    public class RelaisConfiguration
     {
         public List<PinConfiguration> Pins { get; set; }
     }
