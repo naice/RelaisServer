@@ -1,0 +1,10 @@
+[Unit]
+Description=Relais Server Service
+
+[Service]
+Type=notify
+ExecStart=/usr/share/dotnet/dotnet /home/pi/RelaisServer/RelaisServer.dll
+WorkingDirectory=/home/pi/RelaisServer
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "RelaisServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
